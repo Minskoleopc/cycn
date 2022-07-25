@@ -1,0 +1,23 @@
+// npx cypress open
+// npx cypress run -- command line
+
+// local staging(dev) canaray production
+
+
+//https://opensource-demo.orangehrmlive.com/index.php/recruitment/viewCandidates - production
+//http://localhost3000/index.php/recruitment/viewCandidates - local
+//http://stag-orangehrml.com/index.php/recruitment/viewCandidates - staging
+//http://dev-orangehrml.com/index.php/recruitment/viewCandidates - canaray
+
+
+
+//----  
+
+npx cypress run --config baseUrl="https://www.google.com/" 
+npx cypress run --headed --config baseUrl="https://www.google.com/" 
+npx cypress run --headed --browser chrome --config baseUrl="https://www.google.com/"
+
+// staging-config
+npx cypress run --headed --browser chrome --config-file staging-config.json
+
+https://dzone.com/articles/configure-cypress-tests-to-run-on-multiple-environments
