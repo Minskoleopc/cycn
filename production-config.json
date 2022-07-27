@@ -2,5 +2,6 @@
     "extends": "./cypress.json",
     "username":"admin",
     "password":"pass",
-    "baseUrl": "https://www.cricinfo.com"
+    "baseUrl": "https://www.cricinfo.com",
+    "dbUserName":"admin"
 }

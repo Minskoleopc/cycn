@@ -11,7 +11,8 @@
     "chrome:production":"npx cypress run --headed --browser chrome --config baseUrl=\"https://www.yahoo.com/\"",
     "headless:production":"npx cypress run --headed --browser chrome --config baseUrl=\"https://www.yahoo.com/\"",
     "stagfile":"npx cypress run --headed --browser chrome --config-file staging-config.json",
-    "prodfile":"npx cypress run --headed --browser chrome --config-file production-config.json"
+    "prodfile":"npx cypress run --headed --browser chrome --config-file production-config.json",
+    "utilityUrl":"npx cypress --headed --browser chrome run  --env ENV=\"production\""
   },
   "keywords": [],
   "author": "",
